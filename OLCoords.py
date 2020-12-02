@@ -22,7 +22,7 @@ def calc_dist(arena1, arena2):
     return(dist)
 
 # CSV of NBA arenas and their corresponding Google Plus Codes.
-locations = pd.read_csv('NBA/SDB_Name Team Legend - wOLC.csv', delimiter=",")
+locations = pd.read_csv('NBA PBP - Team Legend.csv', delimiter=",")
 
 # Use Google's OpenLocationCode (OLC) to determine Latitude and Longitude.
 locations['Coords'] = locations['Plus Code'].apply(lambda x: (olc.decode(x).latitudeCenter, olc.decode(x).longitudeCenter))
