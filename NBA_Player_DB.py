@@ -8,23 +8,27 @@ Created on Fri Apr 20 16:20:00 2018
 import requests
 import json
 import pandas as pd
-
 Team_Legend = pd.read_csv('NBA PBP - Team Legend.csv', delimiter = ',')
 
-NBA_Team_IDs = list(Team_Legend.TeamID)
-
-NBA_df = pd.DataFrame()
-
-for team_id in NBA_Team_IDs:
-    
-    row = Team_Legend[(Team_Legend.TeamID == team_id)]
-    team_name = row.Team.iloc[0]
-    team_code = row.Code.iloc[0]
-    mapping = {team_id:team_code}
+def GetDB(teamID):
+    row = Team_Legend[(Team_Legend.TeamID == teamID)]
+    team_name = row.Team.item()
+    team_code = row.Code.item()
+    mapping = {teamID:team_code}
     
     # Scrape URL for Team
-    url = 'https://stats.nba.com/stats/commonteamroster?LeagueID=00&Season=2018-19&TeamID={team_id}'.format(team_id=team_id)
-    headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36'}
+    url = 'https://stats.nba.com/stats/commonteamroster?LeagueID=00&Season=2019-20&TeamID={team_id}'.format(team_id=teamID)
+    headers = {
+    'Host': 'stats.nba.com',
+    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36',
+    'Accept': 'application/json, text/plain, */*',
+    'Accept-Language': 'en-US,en;q=0.9',
+    'Referer': 'https://stats.nba.com/',
+    'Accept-Encoding': 'gzip, deflate, br',
+    'Connection': 'keep-alive',
+    'x-nba-stats-origin': 'stats',
+    'x-nba-stats-token': 'true'
+    }
     response = requests.get(url, headers = headers)
     
     if str(response) == '<Response [200]>':
@@ -53,14 +57,4 @@ for team_id in NBA_Team_IDs:
         
         player_df.columns = new_col_head
         
-        filename = team_name+'_PlayerIDs.csv'
-        
-        NBA_df = pd.concat([NBA_df,player_df], axis=0, ignore_index=True)
-        
-        print(filename + ' added to NBA DF')
-    else:
-        print(str(response))
-        print(team_name)
-        print('!!!!!!!')
-        
-NBA_df.to_csv('NBA_Player_DB.csv', index=False)
+        return(team_name, team_code, team_df, coach_df, player_df)
