@@ -1,3 +1,10 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Dec  1 16:40:42 2020
+
+@author: Degentleman
+"""
 # Import libraries
 import openlocationcode as olc
 from haversine import haversine, Unit
