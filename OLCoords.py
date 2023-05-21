@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Tue Dec  1 16:40:42 2020
-
+This script calculates the distance between two NBA teams.
 @author: Degentleman
+Created on Tue Dec  1 16:40:42 2020
 """
 # Import libraries
 import openlocationcode as olc
@@ -12,13 +12,19 @@ from haversine import haversine, Unit
 # Define functions
 def find_coords(team_code, locations):
     """Returns the arena name and coordinates of an NBA team."""
+    # Get the arena name.
     arena_name = locations[locations["Code"] == team_code]["Arena"].item()
+
+    # Get the coordinates.
     arena_coords = locations[locations["Code"] == team_code]["Coords"].item()
+
     return arena_name, arena_coords
 
 def calculate_distance(coords1, coords2):
     """Returns the distance between two coordinates in miles."""
+    # Calculate the distance.
     distance = haversine(coords1, coords2, unit=Unit.MILES)
+
     return distance
 
 # Read CSV file
