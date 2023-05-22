@@ -9,6 +9,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from haversine import haversine, Unit
 
+
 def calculate_distance(team1, team2, distance_unit=Unit.MILES):
     """Returns the distance between two NBA teams in the specified unit."""
     try:
@@ -19,10 +20,12 @@ def calculate_distance(team1, team2, distance_unit=Unit.MILES):
         raise ValueError("Invalid team code")
     return distance
 
+
 def get_arena_coords(team_code):
     """Returns the latitude and longitude coordinates of an NBA team's arena."""
     arena_coords = locations.loc[locations["Code"] == team_code, "Coords"].item()
     return arena_coords
+
 
 def plot_basketball_court(team_code):
     """Plots the basketball court with the specified team's code at the center."""
@@ -41,6 +44,7 @@ def plot_basketball_court(team_code):
     plt.ylabel("Y-Coordinate")
     plt.savefig("basketball_court.png")
     plt.show()
+
 
 # Read the CSV file into a Pandas DataFrame.
 df = pd.read_csv("players.csv")
