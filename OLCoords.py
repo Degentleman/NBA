@@ -46,9 +46,6 @@ def plot_basketball_court(team_code):
     plt.show()
 
 
-# Read the CSV file into a Pandas DataFrame.
-df = pd.read_csv("players.csv")
-
 # Read the CSV file with team locations.
 locations = pd.read_csv("NBA PBP - Team Legend.csv", delimiter=",")
 
