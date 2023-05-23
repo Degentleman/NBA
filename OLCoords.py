@@ -17,4 +17,3 @@ locations['Coords'] = locations['Plus Code'].apply(lambda x: (olc.decode(x).lati
 
 # Print the latitude and longitude coordinates of the first row in the DataFrame.
 print(locations.iloc[0]['Coords'])
-
