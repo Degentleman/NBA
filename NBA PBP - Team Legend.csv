@@ -1,31 +1,31 @@
 TeamID,Code,SDB_Name,Name,Division,Arena,Plus Code,Capacity,Zip Code
-1610612737,ATL,Hawks,Atlanta Hawks,Southeast,State Farm Arena,865QQJ43+WF,"21,000",30303
-1610612738,BOS,Celtics,Boston Celtics,Atlantic,TD Garden,87JC9W8Q+F4,"19,580",02114
-1610612739,CLE,Cavaliers,Cleveland Cavaliers,Central,Rocket Mortgage FieldHouse,86HWF8W6+JQ,"20,562",44115
-1610612740,NOP,Pelicans,New Orleans Pelicans,Southwest,Smoothie King Center,76XFWWX9+J5,"17,791",70113
-1610612741,CHI,Bulls,Chicago Bulls,Central,United Center,86HJV8JG+78,"23,500",60612
 1610612742,DAL,Mavericks,Dallas Mavericks,Southwest,American Airlines Center,8645Q5RQ+4W,"20,000",75219
-1610612743,DEN,Nuggets,Denver Nuggets,Northwest,Ball Arena,85FPPXXR+FX,"20,000",80204
-1610612744,GSW,Warriors,Golden State Warriors,Pacific,Chase Center,849VQJ97+33,"18,064",94158
-1610612745,HOU,Rockets,Houston Rockets,Southwest,Toyota Center,76X6QJ2Q+85,"18,300",77002
-1610612746,LAC,Clippers,LA Clippers,Pacific,STAPLES Center,85632PVM+63,"20,000",90015
-1610612747,LAL,Lakers,Los Angeles Lakers,Pacific,STAPLES Center,85632PVM+63,"20,000",90015
-1610612748,MIA,Heat,Miami Heat,Southeast,American Airlines Arena,76QXQRJ7+H6,"21,000",33132
-1610612749,MIL,Bucks,Milwaukee Bucks,Central,Fiserv Forum,86MJ23WM+22,"17,341",53203
-1610612750,MIN,Timberwolves,Minnesota Timberwolves,Northwest,Target Center,86P8XPHF+QH,"19,356",55403
-1610612751,BKN,Nets,Brooklyn Nets,Atlantic,Barclays Center,87G8M2MF+3R,"19,000",11217
-1610612752,NYK,Knicks,New York Knicks,Atlantic,Madison Square Garden,87G8Q224+6J,"20,789",10001
 1610612753,ORL,Magic,Orlando Magic,Southeast,Amway Center,76WWGJQ8+MF,"20,000",32801
-1610612754,IND,Pacers,Indiana Pacers,Central,Bankers Life Fieldhouse,86FMQR7W+J6,"20,000",46204
-1610612755,PHI,Seventysixers,Philadelphia 76ers,Atlantic,Wells Fargo Center,87F6WR2H+F6,"19,500",19148
-1610612756,PHX,Suns,Phoenix Suns,Pacific,Phoenix Suns Arena,8559CWWH+7G,"18,422",85004
-1610612757,POR,Trailblazers,Portland Trail Blazers,Northwest,Moda Center,84QVG8JM+J7,"19,980",97227
-1610612758,SAC,Kings,Sacramento Kings,Pacific,Golden 1 Center,84CWHGJ2+34,"17,608",95814
-1610612759,SAS,Spurs,San Antonio Spurs,Southwest,AT&T Center,76X3CHG7+V2,"18,581",78219
-1610612760,OKC,Thunder,Oklahoma City Thunder,Northwest,Chesapeake Energy Arena,8674FF7M+9X,"18,203",73102
-1610612761,TOR,Raptors,Toronto Raptors,Atlantic,Scotiabank Arena,87M2JJVC+99,"19,800",M5J 2X2
-1610612762,UTA,Jazz,Utah Jazz,Northwest,Vivint Smart Home Arena,85GCQ39X+8H,"18,300",84101
-1610612763,MEM,Grizzlies,Memphis Grizzlies,Southwest,FedExForum,867F4WQX+7Q,"18,119",38103
+1610612743,DEN,Nuggets,Denver Nuggets,Northwest,Ball Arena,85FPPXXR+FX,"20,000",80204
+1610612751,BKN,Nets,Brooklyn Nets,Atlantic,Barclays Center,87G8M2MF+3R,"19,000",11217
 1610612764,WAS,Wizards,Washington Wizards,Southeast,Capital One Arena,87C4VXXH+6M,"20,356",20004
+1610612744,GSW,Warriors,Golden State Warriors,Pacific,Chase Center,849VQJ97+33,"18,064",94158
+1610612746,LAC,Clippers,LA Clippers,Pacific,Crypto.com Arena,85632PVM+63,"20,000",90015
+1610612747,LAL,Lakers,Los Angeles Lakers,Pacific,Crypto.com Arena,85632PVM+63,"20,000",90015
+1610612762,UTA,Jazz,Utah Jazz,Northwest,Delta Center,85GCQ39X+8H,"18,300",84101
+1610612763,MEM,Grizzlies,Memphis Grizzlies,Southwest,FedEx Forum,867F4WQX+7Q,"18,119",38103
+1610612749,MIL,Bucks,Milwaukee Bucks,Central,Fiserv Forum,86MJ23WM+22,"17,341",53203
+1610612756,PHX,Suns,Phoenix Suns,Pacific,Footprint Center,8559CWWH+7G,"18,422",85004
+1610612759,SAS,Spurs,San Antonio Spurs,Southwest,Frost Bank Center,76X3CHG7+V2,"18,581",78219
+1610612754,IND,Pacers,Indiana Pacers,Central,Gainbridge Fieldhouse,86FMQR7W+J6,"20,000",46204
+1610612758,SAC,Kings,Sacramento Kings,Pacific,Golden 1 Center,84CWHGJ2+34,"17,608",95814
+1610612748,MIA,Heat,Miami Heat,Southeast,Kaseya Center,76QXQRJ7+H6,"21,000",33132
 1610612765,DET,Pistons,Detroit Pistons,Central,Little Caesars Arena,86JR8WRV+CV,"19,515",48201
+1610612752,NYK,Knicks,New York Knicks,Atlantic,Madison Square Garden,87G8Q224+6J,"20,789",10001
+1610612757,POR,Trailblazers,Portland Trail Blazers,Northwest,Moda Center,84QVG8JM+J7,"19,980",97227
+1610612760,OKC,Thunder,Oklahoma City Thunder,Northwest,Paycom Center,8674FF7M+9X,"18,203",73102
+1610612739,CLE,Cavaliers,Cleveland Cavaliers,Central,Rocket Mortgage Fieldhouse,86HWF8W6+JQ,"20,562",44115
+1610612761,TOR,Raptors,Toronto Raptors,Atlantic,Scotiabank Arena,87M2JJVC+99,"19,800",M5J 2X2
+1610612740,NOP,Pelicans,New Orleans Pelicans,Southwest,Smoothie King Center,76XFWWX9+J5,"17,791",70113
 1610612766,CHA,Hornets,Charlotte Hornets,Southeast,Spectrum Center,867X65G6+36,"20,200",28202
+1610612737,ATL,Hawks,Atlanta Hawks,Southeast,State Farm Arena,865QQJ43+WF,"21,000",30303
+1610612750,MIN,Timberwolves,Minnesota Timberwolves,Northwest,Target Center,86P8XPHF+QH,"19,356",55403
+1610612738,BOS,Celtics,Boston Celtics,Atlantic,TD Garden,87JC9W8Q+F4,"19,580",2114
+1610612745,HOU,Rockets,Houston Rockets,Southwest,Toyota Center,76X6QJ2Q+85,"18,300",77002
+1610612741,CHI,Bulls,Chicago Bulls,Central,United Center,86HJV8JG+78,"23,500",60612
+1610612755,PHI,Seventysixers,Philadelphia 76ers,Atlantic,Wells Fargo Center,87F6WR2H+F6,"19,500",19148
